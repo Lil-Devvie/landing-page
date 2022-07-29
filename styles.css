@@ -9,16 +9,15 @@ body{
 }
 
 header {
-    display: inline;
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
     border: 2px solid red;
-    padding: 10px;
+    padding: 10px 50px;
 
 }
 
-#logo {
+header b{
     font-size: 24px;
     border: 2px solid red;
 }
@@ -29,8 +28,7 @@ header a{
     color: #E5E7EB;
     text-decoration: none;
     border: 2px solid red;
-
-    text-align: end;
+    padding: 0 25px;
 
 }
 
@@ -43,7 +41,7 @@ header a{
     background-color: #F9FAF8;
     color: #1f2937;
     height: 20em;
-    width: 100%
+    width: 100%;
     border: 2px solid red;
 }  
 
