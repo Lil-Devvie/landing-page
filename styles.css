@@ -91,6 +91,7 @@ header a{
     font-weight: extra-bold;
     color: #1f2937;
     padding: 20px 0 0;
+    display: block;
 }
 
 .info-section .info-image {
