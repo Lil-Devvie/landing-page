@@ -2,24 +2,23 @@ body{
     background-color: #1f2937;
     font-family: roboto, sans-serif;
     color: #F9FAF8;
-    padding: 0;
-    border: 2px solid red;
-    margin: 0;
-    padding: 0;
+    /* border: 2px solid red; */
+    width: auto;
+    margin: auto;
 }
 
 header {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 10px 50px;
 
 }
 
 header b{
     font-size: 24px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 header a{
@@ -27,17 +26,56 @@ header a{
     font-size: 18px;    
     color: #E5E7EB;
     text-decoration: none;
-    border: 2px solid red;
-    padding: 0 25px;
+    /* border: 2px solid red; */
+    padding: 0 15px;
 
 }
 
-#main-section {
+.main-section {
     height: 20em;
-    border: 2px solid red;
+    width: 100%;
+    /* border: 2px solid red; */
+    text-align: center;
 }
 
-#info-section {
+.main-text {
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+.main-img {
+    display: inline-block;
+}
+.main-img img{
+    /* border: 2px solid red; */
+    width: auto;
+    margin: auto;
+    border-radius: 15%;
+    float: right;
+}
+
+.main-section .main-text #main-text-bold {
+        font-size: 48px;
+        color: #F9FAF8;
+        font-weight: extra-bold;
+}
+
+.main-section .main-text #main-text-info {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+}
+
+.main-section .main-text #hero-button {
+    background-color: teal;
+    color: #F9FAF8;
+    border-radius: 12px;
+    border: 0;
+    font-size: 24px;
+}
+
+.info-section {
     background-color: #F9FAF8;
     color: #1f2937;
     height: 20em;
@@ -45,14 +83,14 @@ header a{
     border: 2px solid red;
 }  
 
-#quote-section {
+.quote-section {
     background-color: #E5E7EB;
     color: #1f2937;
     height: 20em;
     border: 2px solid red;
 }
 
-#call2action-section {
+.call2action-section {
     background-color: #F9FAF8;
     color: #1f2937;
     height: 20em;
