@@ -83,13 +83,14 @@ header a{
     width: 100%;
     /* border: 2px solid red; */
     text-align: center;
-    display: inline-block;
+    margin: 30px 0 0;
 }  
 
 .info-section #header {
     font-size: 36px;
     font-weight: extra-bold;
-    color: #1f2937
+    color: #1f2937;
+    padding: 20px 0 0;
 }
 
 .info-section .info-image {
@@ -104,7 +105,31 @@ header a{
     background-color: #E5E7EB;
     color: #1f2937;
     height: 20em;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    text-align: center;
+    display: block;
+}
+
+.quote-section #quote {
+    font-size: 36px;
+    font-weight: light italics;
+    color: #1f2937;
+    margin: 50px 0;
+    
+}
+
+.quote-section #pic {
+    width: 75px;
+  height: 75px;
+  border:2px solid rgb(202, 188, 188);
+  background: url(img/tiger.png) no-repeat;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+
 }
 
 .call2action-section {
@@ -112,6 +137,30 @@ header a{
     color: #1f2937;
     height: 20em;
     border: 2px solid red;
+    width: 100%;
+
+
+}
+
+.call2action-section .blue-box {
+    background-color: #3882f6;
+    height: 100px;
+    width: 1200px;
+    margin: 50px 6% 0;
+    padding: 50px 0 0;
+    border-radius: 25px;
+    border: 2px solid red;
+}
+
+.call2action-section .blue-box h5, p, button {
+    display: inline;
+}
+
+.call2action-section .blue-box h5 {
+    font-size: 24px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: -10px 40px 0 30px;
 }
 
 footer {
