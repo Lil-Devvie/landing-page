@@ -81,8 +81,24 @@ header a{
     color: #1f2937;
     height: 20em;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    text-align: center;
+    display: inline-block;
 }  
+
+.info-section #header {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937
+}
+
+.info-section .info-image {
+    display: inline-block;
+    /* border: 2px solid red; */
+    width: 100px;
+    height: 100px;
+    margin: 0 40px 0;
+}
 
 .quote-section {
     background-color: #E5E7EB;
