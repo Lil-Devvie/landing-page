@@ -32,7 +32,7 @@ header a{
 }
 
 .main-section {
-    height: 20em;
+    height: 25em;
     width: 100%;
     /* border: 2px solid red; */
     text-align: center;
@@ -40,7 +40,8 @@ header a{
 
 .main-text {
     display: inline-block;
-    width: 50%;
+    text-align: left;
+    width: 40%;
     margin: auto;
     /* border: 2px solid red; */
 }
