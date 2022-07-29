@@ -2,39 +2,67 @@ body{
     background-color: #1f2937;
     font-family: roboto, sans-serif;
     color: #F9FAF8;
+    padding: 0;
+    border: 2px solid red;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    border: 2px solid red;
+    padding: 10px;
+
 }
 
 #logo {
     font-size: 24px;
-    display: inline;
+    border: 2px solid red;
 }
 
-header a {
-    display: inline;
-    text-align: right;
-    font-size: 18px;
+header a{
+    float: right;
+    font-size: 18px;    
     color: #E5E7EB;
     text-decoration: none;
+    border: 2px solid red;
+
+    text-align: end;
+
+}
+
+#main-section {
+    height: 20em;
+    border: 2px solid red;
 }
 
 #info-section {
     background-color: #F9FAF8;
     color: #1f2937;
     height: 20em;
+    width: 100%
+    border: 2px solid red;
 }  
 
 #quote-section {
     background-color: #E5E7EB;
     color: #1f2937;
-    height: 20%
+    height: 20em;
+    border: 2px solid red;
 }
 
 #call2action-section {
     background-color: #F9FAF8;
     color: #1f2937;
+    height: 20em;
+    border: 2px solid red;
 }
 
 footer {
     color: #E5E7EB;
     text-align: center;
+    border: 2px solid red;
 }
